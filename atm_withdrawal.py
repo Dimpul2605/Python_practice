@@ -1,3 +1,5 @@
+
+#Atm Withdrawal
 account_balance = int(input("Enter your Account Balance : "))
 withdrawal_amount = int(input("Enter your Withdrawal Amount : "))
 
@@ -12,5 +14,6 @@ elif  withdrawal_amount % 100 == 0:
     print (f"your account balance is {new_balance}.")
     if new_balance < 1000:
         print("Low Balance.")
+
 
 

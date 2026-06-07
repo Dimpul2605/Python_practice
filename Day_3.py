@@ -58,9 +58,9 @@ if marks >= 90:
     print("Grade A")
     if marks >= 95:
         print("Outstanding Performance")
-elif marks == 75  and marks <= 89:
+elif marks >= 75  and marks <= 89:
     print ("Grade B")
-elif marks == 50 and marks <= 84:
+elif marks >= 50 and marks <= 84:
     print("Grade C")
 elif marks < 50:
     print ("fail")
